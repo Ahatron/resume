@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Resume</title>
+</head>
+<body>
+<div class="container">
+
+  <input id="menu__toggle" type="checkbox"/>
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+
+  <nav>
+    <ul class="menu__box">
+      <li class="menu-item">
+        <a href="#home">Home</a>
+      </li>
+      <li class="menu-item">
+        <a href="#about-me">About me</a>
+      </li>
+      <li class="menu-item">
+        <a href="#skills">Skills</a>
+      </li>
+      <li class="menu-item">
+        <a href="#portfolio">Portfolio</a>
+      </li>
+      <li class="menu-item">
+        <a href="#contacts">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="present">
+      <div class="present--inner">Denis <br> Novik</div>
+
+      <div class="present--inner">
+        <p>UX | UI designer <br>
+          24 years old, Minsk</p>
+      </div>
+
+      <div class="present--inner" >
+        <label>
+          <input type="radio" name="lang" value="ru" class="ru-lang" >
+          <div id="ru">RU</div>
+        </label>
+        |
+        <label>
+          <input type="radio" name="lang" value="eng" class="eng-lang" checked>
+          <div id="eng">ENG</div>
+        </label>
+      </div>
+    </div>
+
+    <picture>
+      <source media="(max-width: 500px)" srcset="images/BSPP2266-316.png">
+      <img src="images/1.png" alt="">
+    </picture>
+
+  </section>
+
+  <section id="about-me">
+    <h2>About me</h2>
+
+    <p>
+      Hi, I'm Denis – UX/UI designer from Minsk. <br>
+      I'm interested in design and everything connected with it.
+    </p>
+    <p>
+      I'm studying at courses "Web and mobile design <br>
+      interfaces" in IT-Academy.
+    </p>
+    <p>
+      Ready to implement excellent projects <br>
+      with wonderful people.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>I work in such programs as</p>
+    <div class="programs">
+      <div class="programs-item">
+        <img src="images/icons8-adobe-photoshop-96.png" alt="">
+        <h3>Adobe <br>
+          Photoshop</h3>
+        <div class="rating">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-empty.png" alt="">
+        </div>
+      </div>
+
+      <div class="programs-item">
+        <img src="images/Adobe_Illustrator_Icon.png" alt="">
+        <h3>Adobe <br>
+          Illustrator</h3>
+        <div class="rating">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-empty.png" alt="">
+          <img src="images/star-empty.png" alt="">
+        </div>
+      </div>
+
+      <div class="programs-item">
+        <img src="images/icons8-adobe-after-effects-96.png" alt="">
+        <h3>
+          Adobe <br>
+          After Effects
+        </h3>
+        <div class="rating">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-empty.png" alt="">
+        </div>
+      </div>
+
+      <div class="programs-item">
+        <img src="images/icons8-figma-96.png" alt="">
+        <h3>
+          Figma
+        </h3>
+        <div class="rating">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-full.png" alt="">
+          <img src="images/star-empty.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="works">
+      <img src="images/2.png" alt="">
+      <a href="">Online fashion store - Homepage</a>
+    </div>
+    <div class="works">
+      <img src="images/3.png" alt="">
+      <a href="">Reebok Store - Concept</a>
+    </div>
+    <div class="works">
+      <img src="images/4.png" alt="">
+      <a href="">Braun Landing Page - Concept</a>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <p>Want to know more or just chat?<br>
+      You are welcome!</p>
+
+    <button><a href="">Send message</a></button>
+    <div class="social">
+      <img src="images/icon-nigger.png" alt="">
+      <img src="images/instagram.png" alt="">
+      <img src="images/be.png" alt="">
+      <img src="images/ball.png" alt="">
+    </div>
+
+    <h3>Like me on <br>
+      LinkedIn, Instagram, Behance, Dribble</h3>
+  </section>
+
+</div><!-- container -->
+</body>
+
+</html>

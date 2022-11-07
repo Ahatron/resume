@@ -1,0 +1,119 @@
+html {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1445px;
+  min-width: 200px;
+  background-color: white;
+}
+
+a,
+p {
+  font-size: 1em;
+  color: black;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  color: #828282;
+
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+picture{
+  max-width: 100%;
+  width: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 100%;
+
+  padding: 100px 250px;
+}
+
+section h2,
+p {
+  margin: 15px;
+}
+
+section:nth-child(odd) {
+  background: #F6F6F6;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  section{
+    padding: 100px 150px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  section{
+    padding: 100px 100px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:800px){
+  section{
+    padding: 60px 50px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  a, p {
+    font-size: 0.8em;
+  }
+  p{
+    margin: 15px 0;
+  }
+  h2{
+    font-size: 1.3em;
+  }
+  section{
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 300px){
+  p, a{
+    font-size: 0.6em;
+    margin: 10px 0;
+  }
+  h3{
+    margin: 0;
+  }
+  section{
+    padding: 25px 10px;
+  }
+}
