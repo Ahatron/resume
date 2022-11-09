@@ -80,7 +80,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   nav{
     display: block;
     border: 0;
@@ -180,7 +180,7 @@ nav {
   .menu_item:hover {
     background-color: #CFD8DC;
   }
-  .menu-item a:active{
+  .menu-item.active{
     text-shadow: 5px 5px 5px black;
   }
   .menu__item {
